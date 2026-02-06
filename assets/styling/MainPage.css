@@ -3,20 +3,24 @@ body {
     padding: 0;
 }
 
-.header-styling {
-    display: flex;
-    justify-content: flex-start;
-    background-color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
+header {
+  display: flex;
+  justify-content: flex-start; /* push everything to the left */
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: black;
+  color: white;
 }
+
 
 .body-styling {
     background-color: white;
+}
+
+.header-logo {
+    max-width: 2.5%;
+    height: auto;
+    padding: 5px;
+    padding-right: 15px;
 }
